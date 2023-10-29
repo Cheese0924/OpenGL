@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\mission7">
+      <UniqueIdentifier>{2c743429-85b3-47f9-859a-08c3d2a39120}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\mission7">
+      <UniqueIdentifier>{7dee79be-82a0-4fe0-b3d9-f0d75f7ec89f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\mission8">
+      <UniqueIdentifier>{8268dfa3-ac2b-4865-90d7-fbbbb79a2089}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\mission6">
+      <UniqueIdentifier>{b8d05b06-4ae6-477e-9d7b-1ccf8503ed0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\mission6">
+      <UniqueIdentifier>{9f874a0e-93d2-4b4a-b38f-79098fb88c24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\etc">
+      <UniqueIdentifier>{549dd9f1-6262-478b-a048-54fdaa7a6a64}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Light.cpp">
+      <Filter>소스 파일\mission7</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>소스 파일\mission7</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape3D.cpp">
+      <Filter>소스 파일\mission7</Filter>
+    </ClCompile>
+    <ClCompile Include="mission7.cpp">
+      <Filter>소스 파일\mission7</Filter>
+    </ClCompile>
+    <ClCompile Include="mission6.cpp">
+      <Filter>소스 파일\mission6</Filter>
+    </ClCompile>
+    <ClCompile Include="OBJ.cpp">
+      <Filter>소스 파일\mission6</Filter>
+    </ClCompile>
+    <ClCompile Include="소스1.cpp">
+      <Filter>소스 파일\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="소스2.cpp">
+      <Filter>소스 파일\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="소스.cpp">
+      <Filter>소스 파일\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="소스3.cpp">
+      <Filter>소스 파일\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="소스4.cpp">
+      <Filter>소스 파일\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="소스5.cpp">
+      <Filter>소스 파일\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="소스6.cpp">
+      <Filter>소스 파일\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="BubbleBobble.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="keyFunction.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="practice.cpp">
+      <Filter>소스 파일\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Light.h">
+      <Filter>헤더 파일\mission7</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>헤더 파일\mission7</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape3D.h">
+      <Filter>헤더 파일\mission7</Filter>
+    </ClInclude>
+    <ClInclude Include="OBJ.h">
+      <Filter>헤더 파일\mission6</Filter>
+    </ClInclude>
+    <ClInclude Include="BubbleBobble.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="keyFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
